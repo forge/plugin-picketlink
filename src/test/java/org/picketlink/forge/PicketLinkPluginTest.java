@@ -28,6 +28,5 @@ public class PicketLinkPluginTest extends AbstractShellTest
       DependencyFacet facet = project.getFacet(DependencyFacet.class);
       Assert.assertTrue(facet.hasEffectiveDependency(PicketLinkFacet.API_DEPENDENCY));
       Assert.assertTrue(facet.hasEffectiveDependency(PicketLinkFacet.IMPL_DEPENDENCY));
-      System.out.println(getOutput());
    }
 }
